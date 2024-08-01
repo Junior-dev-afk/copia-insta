@@ -1,0 +1,155 @@
+body{
+    width: 100vw;
+    height: 100dvh;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tudo{
+    width: 80%;
+    height: 70%;
+    display: flex;
+}
+
+input{
+    width: 50%;
+    height: 4%;
+    padding: 5px;
+    margin-block: 3%;
+    border-radius: 0px;
+    border: none;
+    border-left: rgb(7, 83, 7) solid 2px;
+    text-align: left;
+}
+
+input:focus{
+    outline: none;
+    border-left: none;
+    text-align: center;
+    border-bottom: rgb(7, 83, 7) solid 2px;
+}
+
+input:focus::placeholder{
+    opacity: 0;
+}
+
+*::placeholder{
+    color: rgba(7, 83, 7, 255);
+    opacity: 1;
+}
+
+input:not(:focus){
+    border-bottom: none;
+    border-left: rgb(7, 83, 7) solid 2px;
+}
+
+.container-pagina{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: auto;
+    height:8%;
+    padding-inline: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: solid 1px rgb(7, 83, 7);
+    color: rgb(7, 83, 7);
+    margin-block: 2%;
+    font-size: 70%;
+    background-color: transparent;
+}
+
+button:hover{
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+button:not(:hover){
+    scale: 1;
+    transition: 0.3s;
+}
+
+.tampador{
+    position: absolute;
+    background-color: rgb(7, 83, 7);
+}
+
+.tampador_right{
+    width: 40%;
+    height: 70%;
+    margin-left: 40%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.anim_register_to_login{
+    animation: register_to_login 1.5s ease-in ;
+}
+
+.anim_login_to_register{
+    animation: login_to_register 1.5s ease-in ;
+}
+
+.tampador_left{
+    width: 40%;
+    height: 70%;
+    margin-left: 0%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+@keyframes register_to_login {
+    0%{
+        width: 40%;
+        margin-left: 40%;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    50%{
+        width: 80%;
+        margin-left: 0%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    100%{
+        width: 40%;
+        margin-left: 0%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+}
+
+
+@keyframes login_to_register {
+    0%{
+        width: 40%;
+        margin-left: 0%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    50%{
+        width: 80%;
+        margin-left: 0%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    100%{
+        width: 40%;
+        margin-left: 40%;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+}

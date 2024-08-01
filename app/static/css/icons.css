@@ -1,0 +1,74 @@
+:root{
+    --size: 10px;
+}
+
+.i-home{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/home.png") no-repeat center center / contain;
+}
+
+.i-coracao{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/coracao.png") no-repeat center center / contain;
+}
+
+.i-lupa{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/lupa.png") no-repeat center center / contain;
+}
+
+.i-add{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/add.png") no-repeat center center / contain;
+}
+
+.i-msg{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/msg.png") no-repeat center center / contain;
+}
+
+.i-opcoes{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/opcoes.png") no-repeat center center / contain;
+}
+
+.i-perfil{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/perfil.png") no-repeat center center / contain;
+}
+
+.i-explore{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/explorar.png") no-repeat center center / contain;
+}
+
+.i-reels{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons/reels.png") no-repeat center center / contain;
+}
+
+.notify{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -15px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(240, 64, 88);
+    outline: solid 2px aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(224, 224, 224);
+}
