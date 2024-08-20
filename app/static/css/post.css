@@ -1,0 +1,125 @@
+.post-pagina-inicial{
+    width: 70%;
+    height: auto;
+    outline: 1px rgb(136, 136, 136) solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    margin-block: 10px;
+}
+
+.nome-post-pagina-inicial{
+    color: black;
+}
+
+.local-post-pagina-inicial{
+    color: black;
+}
+
+.desc-post{
+    color: black;
+}
+
+.input-adicionar-comentario{
+    color: rgb(56, 56, 56);
+}
+
+.input-adicionar-comentario::placeholder{
+    color: rgb(56, 56, 56);
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto-post{
+    width: 40px;
+    height: 40px;
+}
+
+.infos-post{
+    width: auto;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.tres-pontos{
+    width: 20px;
+    aspect-ratio: 4;
+    --_g: no-repeat radial-gradient(circle closest-side,#000 90%,#0000);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 100%;
+}
+
+.fotos-post-pagina-inicial{
+    width: 100%;
+    height: auto;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+
+.opcoes-posts{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-post{
+    margin-block: 5px;
+}
+
+.icon-post-pagina-inicial{
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+.input-adicionar-comentario{
+    width: calc(100% - 30px);
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.emoji-post-pagina-inicial{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+    .nome-post-pagina-inicial{
+        color: rgb(185, 185, 185);
+    }
+    
+    .local-post-pagina-inicial{
+        color: rgb(185, 185, 185);
+    }
+    
+    .desc-post{
+        color: rgb(185, 185, 185);
+    }
+    
+    .input-adicionar-comentario{
+        color: rgb(177, 177, 177);
+    }
+    
+    .input-adicionar-comentario::placeholder{
+        color: rgb(177, 177, 177);
+    }
+}

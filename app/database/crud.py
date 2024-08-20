@@ -35,10 +35,10 @@ class DataBase :
         cursor = connect.cursor()
         cursor.execute("""
             INSERT INTO users (email, user, senha, fotoPerfil, apelido) VALUES (?, ?, ?, ?, ?)
-        """, (email, user, senha, "static/icons/perfil.png", "NONE-none",))
+        """, (email, user, senha, "false", "NONE-none",))
         connect.commit()
         connect.close()
-        Conta(email, user, senha, "static/icons/perfil.png", "NONE-none")
+        Conta(email, user, senha, "false", "NONE-none")
 
     def read (self, user):
         for user in todasContas.contas:

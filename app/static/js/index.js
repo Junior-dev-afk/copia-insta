@@ -11,11 +11,10 @@ let delayBotaoSegui = false
 async function seguirBTN_pagina_inicialuir (user, btn) {
     if (!delayBotaoSegui){
         delayBotaoSegui = true
-        if ( btn.innerHTML == "Seguindo" ){
-            await site.adicionarPedidoDeixarSeguir(myAcc, user)
 
-            btn.innerHTML = "Seguir"
-            btn.style["background-color"] = "rgb(61, 134, 202)"
+        if ( btn.innerHTML == "Seguindo" ){
+            
+            await site.adicionarPedidoDeixarSeguir(myAcc, user, btn)
     
         } else {
             let seguido = await site.comecarSeguir(myAcc, user)

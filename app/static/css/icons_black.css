@@ -1,0 +1,105 @@
+:root{
+    --size: auto;
+}
+
+
+.i-home{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/home_dark.png") no-repeat center center / contain;
+}
+
+.i-coracao{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/coracao_dark.png") no-repeat center center / contain;
+}
+
+.i-lupa{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/lupa_dark.png") no-repeat center center / contain;
+}
+
+.i-add{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/plus_dark.png") no-repeat center center / contain;
+}
+
+.i-msg{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/msg_dark.png") no-repeat center center / contain;
+}
+
+.i-opcoes{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/menu_dark.png") no-repeat center center / contain;
+}
+
+.i-perfil{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/perfil_dark.png") no-repeat center center / contain;
+}
+
+.i-explore{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/explore_dark.png") no-repeat center center / contain;
+}
+
+.i-reels{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/reels_dark.png") no-repeat center center / contain;
+}
+
+.i-chat-bubble{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/chat_bubble_dark.png") no-repeat center center / contain;
+}
+
+.i-paper-airplane{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/send_airplane_dark.png") no-repeat center center / contain;
+}
+
+.i-favorite{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/favorite_dark.png") no-repeat center center / contain;
+}
+
+.i-tree_dots{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/dots_dark.png") no-repeat center center / contain;
+}
+
+.i-emoji{
+    width: var(--size);
+    height: var(--size);
+    background: url("../icons_black/emoji_dark.png") no-repeat center center / contain;
+}
+
+.notify{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -15px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(240, 64, 88);
+    outline: solid 2px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(224, 224, 224);
+}
